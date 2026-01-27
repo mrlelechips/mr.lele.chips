@@ -1,13 +1,14 @@
 :root {
-    --dark: #0b0f54;
+    --dark: #000000;
     --card-bg: #d31330;
     --medium: #47e118;
     --light: #83e8ee;
     --accent: #1ce9bd;
-    --cream: #0c294a;
+    --cream: #3cff00;
     --gold: #d6ac20;
     --text-dark: #88ebbd;
     --text-light: #7cf3e5;
+    --text-gray: #d3d3d3
 }
 
 * {
@@ -18,7 +19,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: var(--cream);
+    background: var(--dark);
     color: var(--text-dark);
     line-height: 1.7;
     overflow-x: hidden;
@@ -452,15 +453,15 @@ footer {
     justify-content: center;
     width: 40px;
     height: 40px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgb(255, 255, 255);
     border-radius: 50%;
-    color: var(--cream);
+    color: var(--dark);
     font-size: 18px;
     transition: all 0.3s ease;
 }
 
 .social-links a:hover {
-    background: var(--gold);
+    background: var(--dark);
     transform: translateY(-3px);
 }
 
